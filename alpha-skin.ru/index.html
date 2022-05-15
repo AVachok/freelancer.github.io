@@ -1,0 +1,1089 @@
+<!doctype html>
+<html lang="ru-RU" class="no-js">
+	
+<!-- Mirrored from alpha-skin.ru/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 May 2022 08:19:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="UTF-8">
+		<title> AlphaSkin</title>
+
+		<link href="http://www.google-analytics.com/" rel="dns-prefetch">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Плоттер для нарезки гидрогелевой плёнки">
+
+		<meta name='robots' content='noindex, nofollow' />
+<link rel='dns-prefetch' href='http://cdnjs.cloudflare.com/' />
+<link rel='dns-prefetch' href='http://maxcdn.bootstrapcdn.com/' />
+<link rel='dns-prefetch' href='http://use.fontawesome.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://alpha-skin.ru/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=2.9.2' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://alpha-skin.ru/wp-includes/css/dist/block-library/style.css?ver=5.9.3' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://alpha-skin.ru/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2' media='all' />
+<link rel='stylesheet' id='ctf_styles-css'  href='https://alpha-skin.ru/wp-content/plugins/custom-twitter-feeds/css/ctf-styles.min.css?ver=1.8.2' media='all' />
+<link rel='stylesheet' id='leaflet-css-css'  href='https://alpha-skin.ru/wp-content/plugins/meow-lightbox/app/style.min.css?ver=1627563624' media='all' />
+<link rel='stylesheet' id='ivory-search-styles-css'  href='https://alpha-skin.ru/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=4.6.4' media='all' />
+<link rel='stylesheet' id='lazyload-video-css-css'  href='https://alpha-skin.ru/wp-content/plugins/lazy-load-for-videos/public/css/lazyload-shared.css' media='all' />
+<style id='lazyload-video-css-inline-css' type='text/css'>
+.entry-content a.lazy-load-youtube, a.lazy-load-youtube, .lazy-load-vimeo{ background-size: cover; }.lazy-load-div:before { content: "\25B6"; text-shadow: 0px 0px 60px rgba(0,0,0,0.8); }
+</style>
+<link rel='stylesheet' id='owlcss-css'  href='http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' media='all' />
+<link rel='stylesheet' id='owltheme-css'  href='http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' media='all' />
+<link rel='stylesheet' id='mdb-css'  href='http://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css' media='all' />
+<link rel='stylesheet' id='html5blank-css'  href='https://alpha-skin.ru/wp-content/themes/Plotters/style.css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='https://alpha-skin.ru/wp-content/themes/Plotters/css/responsive.css' media='all' />
+<link rel='stylesheet' id='misc-css'  href='https://alpha-skin.ru/wp-content/themes/Plotters/css/misc.css' media='all' />
+<link rel='stylesheet' id='wpcore-css'  href='https://alpha-skin.ru/wp-content/themes/Plotters/css/wpcore.css' media='all' />
+<link rel='stylesheet' id='ytpcss-css'  href='http://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.8/css/jquery.mb.YTPlayer.min.css' media='all' />
+<link rel='stylesheet' id='print-css'  href='https://alpha-skin.ru/wp-content/themes/Plotters/css/print.css' media='print' />
+<link rel='stylesheet' id='cff-css'  href='https://alpha-skin.ru/wp-content/plugins/custom-facebook-feed/assets/css/cff-style.css?ver=2.19.3' media='all' />
+<link rel='stylesheet' id='sb-font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=5.9.3' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css'  href='https://use.fontawesome.com/releases/v5.15.1/css/all.css' media='all' integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+<link rel='stylesheet' id='jvcf7_client_css-css'  href='https://alpha-skin.ru/wp-content/plugins/jquery-validation-for-contact-form-7/includes/assets/css/jvcf7_client.css?ver=5.0' media='all' />
+<link rel='stylesheet' id='ari-fancybox-css'  href='https://alpha-skin.ru/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.css?ver=1.3.8' media='all' />
+<link rel='stylesheet' id='font-awesome-official-v4shim-css'  href='https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css' media='all' integrity="sha384-WCuYjm/u5NsK4s/NfnJeHuMj6zzN2HFyjhBu/SnZJj7eZ6+ds4zqIM3wYgL59Clf" crossorigin="anonymous" />
+<style id='font-awesome-official-v4shim-inline-css' type='text/css'>
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-brands-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-brands-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-brands-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-brands-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-regular-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-regular-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-regular-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-regular-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.1/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F057-F059,U+F06E,U+F070,U+F075,U+F07B-F07C,U+F080,U+F086,U+F089,U+F094,U+F09D,U+F0A0,U+F0A4-F0A7,U+F0C5,U+F0C7-F0C8,U+F0E0,U+F0EB,U+F0F3,U+F0F8,U+F0FE,U+F111,U+F118-F11A,U+F11C,U+F133,U+F144,U+F146,U+F14A,U+F14D-F14E,U+F150-F152,U+F15B-F15C,U+F164-F165,U+F185-F186,U+F191-F192,U+F1AD,U+F1C1-F1C9,U+F1CD,U+F1D8,U+F1E3,U+F1EA,U+F1F6,U+F1F9,U+F20A,U+F247-F249,U+F24D,U+F254-F25B,U+F25D,U+F267,U+F271-F274,U+F279,U+F28B,U+F28D,U+F2B5-F2B6,U+F2B9,U+F2BB,U+F2BD,U+F2C1-F2C2,U+F2D0,U+F2D2,U+F2DC,U+F2ED,U+F328,U+F358-F35B,U+F3A5,U+F3D1,U+F410,U+F4AD;
+}
+</style>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/themes/Plotters/js/lib/conditionizr-4.3.0.min.js?ver=4.3.0' id='conditionizr-js'></script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/themes/Plotters/js/lib/modernizr-2.7.1.min.js?ver=2.7.1' id='modernizr-js'></script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/themes/Plotters/js/lib/mdb.min.js?ver=5.9.3' id='mdbjs-js'></script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-includes/js/jquery/jquery.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-includes/js/jquery/jquery-migrate.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js?ver=5.9.3' id='owl-js'></script>
+<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.8/jquery.mb.YTPlayer.min.js?ver=5.9.3' id='ytp-js'></script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/themes/Plotters/js/scripts.js?ver=5.9.3' id='html5blankscripts-js'></script>
+<script type='text/javascript' id='mwl-build-js-js-extra'>
+/* <![CDATA[ */
+var mwl = {"plugin_url":"https:\/\/alpha-skin.ru\/wp-content\/plugins\/meow-lightbox\/classes\/","settings":{"theme":"dark","orientation":"auto","selector":".entry-content, .gallery, .mgl-gallery, .wp-block-gallery, .lightbox, .preview-youtube","deep_linking":false,"social_sharing":false,"low_res_placeholder":false,"right_click_protection":true,"magnification":true,"anti_selector":".blog, .archive, .emoji, .attachment-post-image","preloading":false,"download_link":false,"caption_source":"caption","animation":"zoomIn","exif":{"title":true,"caption":true,"camera":"","date":false,"lens":"","shutter_speed":"","aperture":"","focal_length":"","iso":""},"slideshow":{"enabled":false,"timer":"3000"},"map":{"enabled":false}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/meow-lightbox/app/lightbox.js?ver=1627563624' id='mwl-build-js-js'></script>
+<script type='text/javascript' id='ari-fancybox-js-extra'>
+/* <![CDATA[ */
+var ARI_FANCYBOX = {"lightbox":{"backFocus":false,"trapFocus":false,"thumbs":{"hideOnClose":false},"touch":{"vertical":true,"momentum":true},"buttons":["slideShow","fullScreen","thumbs","close"],"lang":"custom","i18n":{"custom":{"PREV":"\u041d\u0430\u0437\u0430\u0434","NEXT":"\u0414\u0430\u043b\u0435\u0435","PLAY_START":"\u041d\u0430\u0447\u0430\u0442\u044c \u0441\u043b\u0430\u0439\u0434-\u0448\u043e\u0443 (P)","PLAY_STOP":"\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u0441\u043b\u0430\u0439\u0434-\u0448\u043e\u0443 (P)","FULL_SCREEN":"\u041f\u043e\u043b\u043d\u043e\u044d\u043a\u0440\u0430\u043d\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c (F)","THUMBS":"\u041c\u0438\u043d\u0438\u0430\u0442\u044e\u0440\u044b (G)","CLOSE":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c (Esc)","ERROR":"\u041d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u0437\u0430\u043f\u0440\u043e\u0448\u0435\u043d\u043d\u043e\u0435 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435. <br\/> \u041f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0443 \u043f\u043e\u0437\u0436\u0435."}}},"convert":{"youtube":{"convert":true},"vimeo":{"convert":true}},"viewers":{"pdfjs":{"url":"https:\/\/alpha-skin.ru\/wp-content\/plugins\/ari-fancy-lightbox\/assets\/pdfjs\/web\/viewer.html"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.js?ver=1.3.8' id='ari-fancybox-js'></script>
+<link rel="https://api.w.org/" href="https://alpha-skin.ru/wp-json/" /><link rel="alternate" type="application/json" href="https://alpha-skin.ru/wp-json/wp/v2/pages/5" /><link rel="alternate" type="application/json+oembed" href="https://alpha-skin.ru/wp-json/oembed/1.0/embed?url=https%3A%2F%2Falpha-skin.ru%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://alpha-skin.ru/wp-json/oembed/1.0/embed?url=https%3A%2F%2Falpha-skin.ru%2F&amp;format=xml" />
+        <!-- Custom Twitter Feeds CSS -->
+        <style type="text/css">
+            #ctf .ctf-item {
+padding: 15px 10px;
+}
+#ctf .ctf-item a {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+}
+        </style>
+        <script>ARI_FANCYBOX_INIT_FUNC = function($) {jQuery('a.preview-lazyload').click( function(e){
+e.preventDefault();
+console.log(e);
+});}</script><style type="text/css">BODY .fancybox-container{z-index:200000}BODY .fancybox-is-open .fancybox-bg{opacity:0.87}BODY .fancybox-bg {background-color:#0f0f11}BODY .fancybox-thumbs {background-color:#ffffff}</style>		<script>
+        conditionizr.config({
+            assets: 'https://alpha-skin.ru/wp-content/themes/Plotters',
+            tests: {}
+        });
+	      const main_slider_delay = 7000
+    </script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://alpha-skin.ru/wp-content/themes/Plotters/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+	</head>
+	<body data-rsssl=1 class="home page-template-default page page-id-5 Plotters glavnaya"><script type="application/javascript">
+var mwl_data = {"901":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/raznovidnost-plenok.png","file_srcset":null,"file_sizes":null,"dimension":{"width":2083,"height":1041},"data":{"id":901,"title":"raznovidnost-plenok","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}},"946":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/glyanczevye-2.png","file_srcset":null,"file_sizes":null,"dimension":{"width":1193,"height":1945},"data":{"id":946,"title":"glyanczevye-2","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}},"947":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/matovye-2.png","file_srcset":null,"file_sizes":null,"dimension":{"width":1193,"height":1945},"data":{"id":947,"title":"matovye-2","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}},"948":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/teksturnye-2.png","file_srcset":null,"file_sizes":null,"dimension":{"width":1192,"height":1944},"data":{"id":948,"title":"teksturnye-2","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}},"949":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/czvetnye-2.png","file_srcset":null,"file_sizes":null,"dimension":{"width":1193,"height":1945},"data":{"id":949,"title":"czvetnye-2","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}},"954":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/opticheskie-2-1.png","file_srcset":null,"file_sizes":null,"dimension":{"width":1193,"height":1944},"data":{"id":954,"title":"opticheskie-2-1","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}},"681":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/2021-05-12-youpin-mibro-color-1.jpg","file_srcset":null,"file_sizes":null,"dimension":{"width":1078,"height":701},"data":{"id":681,"title":"2021-05-12-youpin-mibro-color-1","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}},"678":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/2e2ef9f139da99feff78424ee2dc740b.jpg","file_srcset":null,"file_sizes":null,"dimension":{"width":840,"height":511},"data":{"id":678,"title":"2e2ef9f139da99feff78424ee2dc740b","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}},"674":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/18.jpg","file_srcset":null,"file_sizes":null,"dimension":{"width":1316,"height":1316},"data":{"id":674,"title":"18","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}},"862":{"success":true,"file":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/2021\/05\/group-5.png","file_srcset":null,"file_sizes":null,"dimension":{"width":4647,"height":2618},"data":{"id":862,"title":"group-5","caption":"","description":"","gps":"N\/A","copyright":"N\/A","camera":"N\/A","date":"01.01.1970 - 00:00","lens":"N\/A","aperture":"N\/A","focal_length":"N\/A","iso":"N\/A","shutter_speed":"N\/A"}}};
+</script>
+
+
+		<!-- wrapper -->
+		<div class="wrapper">
+
+			<!-- header -->
+			<header class="header clear active fixed-top" role="banner">
+				<div class="container">
+					<div class="row align-items-center">
+
+
+						<div class="col-5">
+
+							<i class="fas fa-bars d-inline-block d-lg-none" id="menu-pull"></i>
+
+							<!-- nav -->
+							<nav class="nav d-none d-lg-block" id="main-menu-desktop" role="navigation">
+
+									<ul><li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-12"><a href="https://alpha-skin.ru/" aria-current="page">Главная</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type_archive menu-item-object-products menu-item-19"><a href="https://alpha-skin.ru/product/">Плоттеры</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="https://alpha-skin.ru/fordealer/">Дилеру</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="https://alpha-skin.ru/news/">Новости</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-23"><a href="https://alpha-skin.ru/videoover/">Видеообзоры</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type_archive menu-item-object-consumables menu-item-has-children menu-item-22"><a href="https://alpha-skin.ru/consumable/">Продукция</a>
+<ul class="sub-menu">
+	<li id="menu-item-159" class="menu-item menu-item-type-taxonomy menu-item-object-conscat menu-item-159"><a href="https://alpha-skin.ru/consumable/conscat/films-mate/">Плёнки матовые</a></li>
+	<li id="menu-item-510" class="menu-item menu-item-type-taxonomy menu-item-object-conscat menu-item-510"><a href="https://alpha-skin.ru/consumable/conscat/film-glossy/">Плёнки глянцевые</a></li>
+	<li id="menu-item-511" class="menu-item menu-item-type-taxonomy menu-item-object-conscat menu-item-511"><a href="https://alpha-skin.ru/consumable/conscat/films-textural/">Плёнки текстурные</a></li>
+	<li id="menu-item-158" class="menu-item menu-item-type-taxonomy menu-item-object-conscat menu-item-158"><a href="https://alpha-skin.ru/consumable/conscat/accessories/">Аксессуары</a></li>
+	<li id="menu-item-866" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-866"><a href="https://alpha-skin.ru/product/">Плоттеры</a></li>
+</ul>
+</li>
+<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="https://alpha-skin.ru/contacts/">Контакты</a></li>
+</ul>
+							</nav>
+							<!-- /nav -->
+
+						</div>
+
+
+						<div class="col-2 text-center">
+							<!-- logo -->
+							<div class="logo">
+								<a href="https://alpha-skin.ru/">
+									<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+									<img src="https://alpha-skin.ru/wp-content/themes/Plotters/img/logo.svg" alt="Logo ALPHA-SKIN" class="logo-img">
+								</a>
+							</div>
+							<!-- /logo -->
+						</div>
+
+
+						<div class="col-3 text-end contacts-links">
+
+							<div class="d-flex justify-content-end">
+								<div class="text-end text-lg-start">
+
+										<a href="tel:+7(495) 532 3111" title="отдел продаж"><i class="fas fa-mobile"></i>
+											<span class="d-none d-lg-inline"> +7(495) 532 3111</span>
+										</a>
+
+										<span class="d-inline d-lg-none">&nbsp;</span>
+										<br class="d-none d-lg-inline"/>
+
+										<a href="tel:+7(925) 532 3111 (тех.поддержка)" title="техническая поддержка 24/7"><i class="fas fa-phone"></i>
+											<span class="d-none d-lg-inline"> +7(925) 532 3111 (тех.поддержка)</span>
+										</a>
+
+										<span class="d-inline d-lg-none">&nbsp;</span>
+										<br class="d-none d-lg-inline"/>
+
+										<a href="mailto:info@alpha-skin.ru"   title="написать электронное письмо"><i class="fas fa-envelope"></i>
+											<span class="d-none d-lg-inline"> info@alpha-skin.ru</span>
+										</a>
+										<!-- <span class="d-inline d-lg-none">&nbsp;&nbsp;</span> -->
+
+
+								</div>
+							</div>
+
+						</div>
+
+            <div class="col-2">
+
+              <div class="text-end">
+                <a target="_blanc" href="https://ap.alpha-skin.com/" class="d-inline-block text-center" id="link_dashboard">
+                  <i class="fas fa-sign-in-alt"></i>
+                  <span class="d-none d-lg-inline"><br/>Вход</span>
+                </a>
+              </div>
+
+            </div>
+					</div>
+				</div>
+
+
+			</header>
+			<!-- /header -->
+
+			<!-- nav -->
+			<nav class="nav d-flex d-lg-none" id="main-menu-mobile" role="navigation">
+				<div class="container text-center">
+					<i class="far fa-times-circle" id="menu-close"></i>
+					<ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-12"><a href="https://alpha-skin.ru/" aria-current="page">Главная</a></li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-products menu-item-19"><a href="https://alpha-skin.ru/product/">Плоттеры</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="https://alpha-skin.ru/fordealer/">Дилеру</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="https://alpha-skin.ru/news/">Новости</a></li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-videos menu-item-23"><a href="https://alpha-skin.ru/videoover/">Видеообзоры</a></li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-consumables menu-item-has-children menu-item-22"><a href="https://alpha-skin.ru/consumable/">Продукция</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-conscat menu-item-159"><a href="https://alpha-skin.ru/consumable/conscat/films-mate/">Плёнки матовые</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-conscat menu-item-510"><a href="https://alpha-skin.ru/consumable/conscat/film-glossy/">Плёнки глянцевые</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-conscat menu-item-511"><a href="https://alpha-skin.ru/consumable/conscat/films-textural/">Плёнки текстурные</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-conscat menu-item-158"><a href="https://alpha-skin.ru/consumable/conscat/accessories/">Аксессуары</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-866"><a href="https://alpha-skin.ru/product/">Плоттеры</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="https://alpha-skin.ru/contacts/">Контакты</a></li>
+</ul>				</div>
+			</nav>
+			<!-- /nav -->
+
+  <main role="main">
+
+    <script type="text/javascript">
+      const main_slider_delay =     </script>
+
+    
+    <section id="first">
+      <div class="owl-carousel owl-theme" id="mainSlider">
+
+        <div class="slide"><div style="background-image: url(https://alpha-skin.ru/wp-content/uploads/2021/05/1-scaled.jpg)"></div></div>
+
+
+        
+              <div class="slide">
+                <div style="background-image: url(https://alpha-skin.ru/wp-content/uploads/2021/07/2-scaled.jpg)">
+                </div>
+              </div>
+
+               
+
+      </div>
+
+    </section>
+
+    <div class="wp-block-lazyblock-m-kak-nashi-klienty lazyblock-m-kak-nashi-klienty-21eWlx">
+<section class="honor">
+  <div class="container">
+
+    
+    <div class="row align-items-top">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-between mb-4">
+
+                  <div class="item">
+            <i class="fas fas fa-times inring"></i>
+            Хватит замораживать десятки тысяч рублей в склад стекол, которые каждый день обесцениваются
+          </div>
+                  <div class="item">
+            <i class="fas fas fa-thumbs-down inring"></i>
+            Хватит получать десятки отказов от клиентов из за того, что у вас нет в наличии нужного стекла          </div>
+                  <div class="item">
+            <i class="fas fas fa-dollar inring"></i>
+            Начни зарабатывать от 300% на бронированных гидрогелевых плёнках          </div>
+                  <div class="item">
+            <i class="fas fas fa-chart-line inring"></i>
+            Увеличь свою прибыль на +37% за счет базы более 10000+ моделей смартфонов в плоттере Alpha Skin Shell S          </div>
+        
+      </div>
+      <div class="col-12 col-xl-6 mb-4">
+        <div class="container-lazyload preview-lazyload container-youtube js-lazyload--not-loaded"><a href="https://www.youtube.com/watch?v=k9lJbeqoA3E" class="lazy-load-youtube preview-lazyload preview-youtube" data-video-title="Alpha Skin Shell S" title="Play video &quot;Alpha Skin Shell S&quot;">https://www.youtube.com/watch?v=k9lJbeqoA3E</a><noscript>Video can&#8217;t be loaded because JavaScript is disabled: <a href="https://www.youtube.com/watch?v=k9lJbeqoA3E" title="Alpha Skin Shell S">Alpha Skin Shell S (https://www.youtube.com/watch?v=k9lJbeqoA3E)</a></noscript></div>
+      </div>
+    </div>
+
+    <div class="btn-container">
+      <button class="btn btn-color m-auto" data-mdb-toggle="modal" data-mdb-target="#contact-form">Оставить заявку</button>
+    </div>
+
+
+  </div>
+</section>
+
+</div>
+
+<div class="white-joint wp-block-lazyblock-m-product lazyblock-m-product-2gN0dL">
+<section class="product">
+
+  
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <img src="#" alt="">
+      </div>
+      <div class="col-lg-5">
+        <h2>Плоттер &#8220;Alpha Skin Shell S&#8221;</h2>
+        <p>Плоттер &#8220;Alpha Skin Shell S&#8221; – это новейший, эксклюзивный функционалом аппарат, эксплуатация которого принесет Вам существенную прибыль уже с первых дней</p>
+        <a href="https://alpha-skin.ru/product/plotter-alpha-skin-shell-s/" class="more btn btn-out btn-sm mb-3">
+          подробнее
+        </a>
+        <a href="https://alpha-skin.ru/product/" class="btn btn-color btn-sm other">
+          другие продукты
+        </a>
+      </div>
+    </div>
+  </div>
+
+  
+</section>
+
+</div>
+
+
+
+<div class="white-joint wp-block-lazyblock-m-the-plotter-nv lazyblock-m-the-plotter-nv-Z1TVNN">
+<section id="the-plotter">
+  <div class="container">
+    <h2 class="text-center mb-4">Плоттер «Аlpha Skin»</h2>
+        <div class="row">
+
+          <div class="col-md-7">
+
+
+                          <div class="item">
+                <i class="far fa-check-square">
+                </i>
+                30 секунд на изготовление защиты                </div>
+                          <div class="item">
+                <i class="far fa-check-square">
+                </i>
+                15 000+ шаблонов различных девайсов                </div>
+                          <div class="item">
+                <i class="far fa-check-square">
+                </i>
+                15 минут на добавление нового/корректировку старого шаблона                </div>
+                          <div class="item">
+                <i class="far fa-check-square">
+                </i>
+                Вырезает на любую часть смартфона, а так же 360 градусов                </div>
+            
+          </div>
+
+
+          <div class="col-md-5">
+
+                          <div class="item">
+                <i class="far fa-check-square">
+                </i>
+                Сервис техническое поддержки 24/7                </div>
+                          <div class="item">
+                <i class="far fa-check-square">
+                </i>
+                Обновление шаблонов в реальном времени                </div>
+                          <div class="item">
+                <i class="far fa-check-square">
+                </i>
+                365 дней гарантии на плоттер                </div>
+                          <div class="item">
+                <i class="far fa-check-square">
+                </i>
+                Статистика по всей работе плоттера                </div>
+            
+          </div>
+
+        </div>
+      </div>
+
+  </div>
+</section>
+
+</div>
+
+<div class="white-joint wp-block-lazyblock-how-much lazyblock-how-much-Z1vS60E">
+<section class="honor" id="how-much">
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-6 align-self-center order-2 order-md-1">
+        <h2>Узнай на сколько можно <span>увеличить свою прибыль</span> с&nbsp;помощью гидрогелевых плёнок!</h2>
+        <!-- <p>И получи <span>300 грн</span> скидку на первый заказ!</p> -->
+
+        <div class="btn btn-color" data-mdb-toggle="modal" data-mdb-target="#contact-form">Связаться с нами</div>
+      </div>
+
+      <div class="col-lg-6 order-1 order-md-2">
+        <img width="2083" height="1041" src="https://alpha-skin.ru/wp-content/uploads/2021/05/raznovidnost-plenok.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://alpha-skin.ru/wp-content/uploads/2021/05/raznovidnost-plenok.png 2083w, https://alpha-skin.ru/wp-content/uploads/2021/05/raznovidnost-plenok-250x125.png 250w, https://alpha-skin.ru/wp-content/uploads/2021/05/raznovidnost-plenok-700x350.png 700w, https://alpha-skin.ru/wp-content/uploads/2021/05/raznovidnost-plenok-768x384.png 768w, https://alpha-skin.ru/wp-content/uploads/2021/05/raznovidnost-plenok-1536x768.png 1536w, https://alpha-skin.ru/wp-content/uploads/2021/05/raznovidnost-plenok-2048x1024.png 2048w, https://alpha-skin.ru/wp-content/uploads/2021/05/raznovidnost-plenok-120x60.png 120w" sizes="(max-width: 2083px) 100vw, 2083px" data-mwl-img-id="901" />      </div>
+
+    </div>
+
+  </div>
+</section>
+
+</div>
+
+
+
+<div class="wp-block-lazyblock-m-film-properties lazyblock-m-film-properties-1dzOJs">
+<section id="film-properties">
+  <div id="p1" class="player" data-property="{videoURL:'https://youtu.be/E4ps3M1uXhM',containment:'#film-properties',autoPlay:true, mute:true, startAt:0, opacity:.4, showControls:false}"></div>
+  <div class="container">
+    <h2 class="text-center mb-5">Свойства гидрогелевой плёнки</h2>
+    <div class="row">
+
+      <div class="d-none d-lg-block col-lg-1"></div>
+
+      <div class="col-md-6 col-lg-4 left-column">
+
+
+        
+          <div class="item">
+            <i class="far fa-check-circle"></i>
+            Олеофобное покрытие. Палец легко скользит по экрану          </div>
+
+        
+          <div class="item">
+            <i class="far fa-check-circle"></i>
+            Высшая степень прочности. В 3 раза прочнее обычного 5D стекла          </div>
+
+        
+          <div class="item">
+            <i class="far fa-check-circle"></i>
+            Автоматическое восстановление царапин. То есть, если поцарапать экран, то царапина тут же самоуничтожится          </div>
+
+        
+      </div>
+
+      <div class="d-none d-lg-block col-lg-2"></div>
+
+      <div class="col-md-6 col-lg-4 right-column">
+
+        
+          <div class="item">
+            <i class="far fa-check-circle"></i>
+            Любой экран. Мы вырезаем и отправляем плёнку именно под Ваш экран          </div>
+
+        
+          <div class="item">
+            <i class="far fa-check-circle"></i>
+            Без зазоров. Клеится на весь экран до самых краев          </div>
+
+        
+          <div class="item">
+            <i class="far fa-check-circle"></i>
+            Легко клеится. Поклейка занимает всего пару минут, всё необходимое идёт уже в упаковке (салфетка со спиртом и салфетка микрофибра)          </div>
+
+              </div>
+
+      <div class="d-none d-lg-block col-lg-1"></div>
+
+    </div>
+
+    <a href="https://www.youtube.com/watch?v=cS5eCQ0-yhY&amp;t=9s" class="d-table m-auto">
+      <button class="btn btn-color">
+        Краш-тест ▶
+      </button>
+    </a>
+
+  </div>
+</section>
+
+</div>
+
+<div class="wp-block-lazyblock-m-film-types lazyblock-m-film-types-27Hdkw">
+<section id="films">
+  <div class="container text-center">
+    <h2>Разновидности плёнок</h2>
+        <div class="row">
+
+      
+        <div class="col-lg">
+          <a href="https://alpha-skin.ru/consumable/conscat/film-glossy/">
+            <h4>Глянцевые</h4>
+            <img src="https://alpha-skin.by/wp-content/uploads/2021/05/glyanczevye-2.png" alt="" data-mwl-img-id="946">
+          </a>
+        </div>
+
+      
+        <div class="col-lg">
+          <a href="https://alpha-skin.ru/consumable/conscat/films-mate/">
+            <h4>Матовые</h4>
+            <img src="https://alpha-skin.by/wp-content/uploads/2021/05/matovye-2.png" alt="" data-mwl-img-id="947">
+          </a>
+        </div>
+
+      
+        <div class="col-lg">
+          <a href="https://alpha-skin.ru/consumable/conscat/films-textural/">
+            <h4>Текстурные</h4>
+            <img src="https://alpha-skin.by/wp-content/uploads/2021/05/teksturnye-2.png" alt="" data-mwl-img-id="948">
+          </a>
+        </div>
+
+      
+        <div class="col-lg">
+          <a href="https://alpha-skin.by/consumable/conscat/films-textural/">
+            <h4>Цветные</h4>
+            <img src="https://alpha-skin.by/wp-content/uploads/2021/05/czvetnye-2.png" alt="" data-mwl-img-id="949">
+          </a>
+        </div>
+
+      
+        <div class="col-lg">
+          <a href="https://alpha-skin.by/consumable/conscat/films-textural/">
+            <h4>Оптические</h4>
+            <img src="https://alpha-skin.by/wp-content/uploads/2021/05/opticheskie-2-1.png" alt="" data-mwl-img-id="954">
+          </a>
+        </div>
+
+      
+    </div>
+  </div>
+</section>
+
+</div>
+
+
+
+<div class="wp-block-lazyblock-m-news lazyblock-m-news-Z2dAKie">    <section id="news" class="gray">
+      <div class="container">
+        <h2 class="text-center mb-4">Свежие новости</h2>
+          <div class="row">
+                              <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                                              <img src="https://alpha-skin.ru/wp-content/uploads/2021/05/2021-05-12-youpin-mibro-color-1-800x460.jpg" alt="Мировая премьера: умные часы Mibro Color отправились в продажу со скидкой" data-mwl-img-id="681"/>
+                                            <div class="card-body">
+                        <h5 class="card-title">Мировая премьера: умные часы Mibro Color отправились в продажу со скидкой</h5>
+                        <p class="card-text">
+                          12 мая, умные часы Mibro Color официально отправляются в продажу на платформе AliExpress — все желающие могут заказать устройство, чтобы получать уведомления со смартфона, наслаждаться качественным сенсорным дисплеем и множеством различных встроенных возможностей. Более того, в честь релиза нового гаджета компания запускает весьма приятную акцию — потенциальному покупателю достаточно просто ввести купон при оформлении покупки,                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="https://alpha-skin.ru/news/2021/05/13/mirovaya-premera-umnye-chasy-mibro-color-otpravilis-v-prodazhu-so-skidkoj/" class="btn btn-out btn-sm">подробнее</a>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                                              <img src="https://alpha-skin.ru/wp-content/uploads/2021/05/2e2ef9f139da99feff78424ee2dc740b-800x460.jpg" alt="Чем нас удивят сматрфоны Samsung в 2021-ом? Флагманы и хиты" data-mwl-img-id="678"/>
+                                            <div class="card-body">
+                        <h5 class="card-title">Чем нас удивят сматрфоны Samsung в 2021-ом? Флагманы и хиты</h5>
+                        <p class="card-text">
+                          Что нам ждать и на что копить деньги в 2021-ом. Всем привет, мы уже многое знаем про новинки 2021 от Samsung. В этой статье вы узнаете: чем нас обрадует корейский гигант, почему это будет важный год для технологий и какие тренды нам ждать. Поехали! 1. Начнём с самого ожидаемого – с топовых смартфонов. Про&nbsp;Samsung Galaxy                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="https://alpha-skin.ru/news/2021/05/13/chem-nas-udivyat-smatrfony-samsung-v-2021-om-flagmany-i-hity/" class="btn btn-out btn-sm">подробнее</a>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                                              <img src="https://alpha-skin.ru/wp-content/uploads/2021/05/18-800x460.jpg" alt="Гидрогелевая пленка – что это такое и каковы ее преимущества" data-mwl-img-id="674"/>
+                                            <div class="card-body">
+                        <h5 class="card-title">Гидрогелевая пленка – что это такое и каковы ее преимущества</h5>
+                        <p class="card-text">
+                          Гидрогелевая пленка на&nbsp;телефон&nbsp;— интересная новинка на&nbsp;рынке аксессуаров для гаджетов. Сегодня она вызывает массу вопросов потенциальных покупателей, которым не&nbsp;терпится ознакомится с&nbsp;ее&nbsp;свойствами и&nbsp;преимуществами использования. Насколько она хороша и&nbsp;как ею&nbsp;пользоваться, расскажем далее. Особенности гидрогелевой пленки Гидрогелевая пленка создана из&nbsp;полимерного материала, поглощающего и&nbsp;удерживающего влагу. Она обладает высокой прочностью, способна защитить экран смартфона от&nbsp;появления царапин и&nbsp;потертостей. Преимущества гидрогелевой пленки Устойчива                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="https://alpha-skin.ru/news/2021/05/13/gidrogelevaya-plenka-chto-eto-takoe-i-kakovy-ee-preimushhestva/" class="btn btn-out btn-sm">подробнее</a>
+                      </div>
+                    </div>
+                  </div>
+                          </div>
+
+          <a href="https://alpha-skin.ru/news/" class="d-table m-auto">
+            <button class="btn btn-color mt-0">
+              Больше новостей
+            </button>
+          </a>
+      </div>
+    </section>
+    </div>
+
+
+
+<div class="wp-block-lazyblock-m-buy-business lazyblock-m-buy-business-ZU8UIC">
+<section id="end-form">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 image">
+        <img src="https://alpha-skin.ru/wp-content/uploads/2021/05/group-5.png" alt="" data-mwl-img-id="862">
+      </div>
+      <div class="d-none d-xl-flex col-xl-1"></div>
+
+      <div class="col-lg-5 col-xl-4">
+        <div class="card">
+          <div class="card-content text-center">
+            <h3> Купи бизнес, который можно окупить продав 50+ плёнок!</h3>
+            <p class="mb-4">Оставьте свои контакты, мы перезвоним:</p>
+
+            <div role="form" class="wpcf7" id="wpcf7-f7-p5-o1" lang="ru-RU" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="https://alpha-skin.ru/#wpcf7-f7-p5-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="7" />
+<input type="hidden" name="_wpcf7_version" value="5.4.2" />
+<input type="hidden" name="_wpcf7_locale" value="ru_RU" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f7-p5-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="5" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="text-start">
+<div class="form-outline mb-4">
+    <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text form-control" id="yourName" aria-invalid="false" /><label class="form-label" for="yourName">Введите Ваше имя</label></p>
+<div class="form-notch">
+<div class="form-notch-leading" style="width: 9px;"></div>
+<div class="form-notch-middle" style="width: ;"></div>
+<div class="form-notch-trailing"></div>
+</div>
+</div>
+<div class="form-outline mb-4">
+    <input type="tel" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control" id="yourPhone" aria-required="true" aria-invalid="false" /><label class="form-label" for="yourPhone">Ваш контактный телефон *</label></p>
+<div class="form-notch">
+<div class="form-notch-leading" style="width: 9px;"></div>
+<div class="form-notch-middle" style="width: ;"></div>
+<div class="form-notch-trailing"></div>
+</div>
+</div>
+<p><input type="submit" value="Купить" class="wpcf7-form-control wpcf7-submit btn btn-color d-block m-auto" /></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>
+
+
+    <!-- <div class="container mb-5">
+      <a href="/product/" >
+        <button class="btn btn-color m-auto">
+          Все продукты        </button>
+      </a>
+    </div> -->
+
+
+
+
+
+
+  </main>
+
+
+<div class="modal fade" tabindex="-1" id="contact-form">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Связаться с нами</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-mdb-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div role="form" class="wpcf7" id="wpcf7-f8-p5-o2" lang="ru-RU" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="https://alpha-skin.ru/#wpcf7-f8-p5-o2" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="8" />
+<input type="hidden" name="_wpcf7_version" value="5.4.2" />
+<input type="hidden" name="_wpcf7_locale" value="ru_RU" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f8-p5-o2" />
+<input type="hidden" name="_wpcf7_container_post" value="5" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="text-start">
+<div class="form-outline mb-4">
+    <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="yourName" aria-required="true" aria-invalid="false" /><label class="form-label" for="yourName">Введите Ваше имя *</label></p>
+<div class="form-notch">
+<div class="form-notch-leading" style="width: 9px;"></div>
+<div class="form-notch-middle" style="width: 12em;"></div>
+<div class="form-notch-trailing"></div>
+</div>
+</div>
+<div class="form-outline mb-4">
+    <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="yourEmail" aria-required="true" aria-invalid="false" /><label class="form-label" for="yourEmail">Ваш E-mail *</label></p>
+<div class="form-notch">
+<div class="form-notch-leading" style="width: 9px;"></div>
+<div class="form-notch-middle" style="width: 20em;"></div>
+<div class="form-notch-trailing"></div>
+</div>
+</div>
+<div class="form-outline mb-4">
+    <input type="tel" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control" id="yourPhone" aria-required="true" aria-invalid="false" /><label class="form-label" for="yourPhone">Ваш контактный телефон *</label></p>
+<div class="form-notch">
+<div class="form-notch-leading" style="width: 9px;"></div>
+<div class="form-notch-middle" style="width: 20em;"></div>
+<div class="form-notch-trailing"></div>
+</div>
+</div>
+<div class="form-outline mb-4">
+    <textarea name="your-message" cols="40" rows="5" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control" id="yourMessage" aria-required="true" aria-invalid="false"></textarea><label class="form-label" for="yourMessage">Сообщение *</label></p>
+<div class="form-notch">
+<div class="form-notch-leading" style="width: 9px;"></div>
+<div class="form-notch-middle" style="width: 20em;"></div>
+<div class="form-notch-trailing"></div>
+</div>
+</div>
+</div>
+<p><input type="submit" value="Оставить заявку" class="wpcf7-form-control wpcf7-submit btn btn-color d-block m-auto" /></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <!-- /wrapper -->
+      <!-- footer -->
+      <footer class="footer" role="contentinfo">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-2 col-lg-3"></div>
+            <div class="col-md-8 col-lg-6">
+
+              <div class="text-center">
+                <!-- logo -->
+                <div class="logo">
+                  <a href="https://alpha-skin.ru/" class="d-block mb-3">
+                    <img src="https://alpha-skin.ru/wp-content/themes/Plotters/img/logo_w.svg" alt="Logo ALPHA-SKIN" class="logo-img">
+                  </a>
+                </div>
+                <!-- /logo -->
+                <!-- <p>Плоттер для вырезания гидрогелевых плёнок под&nbsp;<b>любые</b> смартфоны, планшеты, фотоаппараты, а&nbsp;также любые модели&nbsp;смарт-часов</p> -->
+                <p>Инновационное оборудование для изготовления защиты на <b>любые</b> девайсы</p>              </div>
+
+            </div>
+            <div class="col-md-2 col-lg-3"></div>
+
+
+          </div>
+                    <div class="sidebar-widgets row text-center mb-2 d-none d-md-flex">
+            <div class="widget_text widget_custom_html col-sm-6 col-lg-3" id="custom_html-2"><h3><i class="fab fa-vk"></i></h3><div class="textwidget custom-html-widget"><script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+							<!-- VK Widget -->
+							<div id="vk_groups"></div>
+							<script type="text/javascript">
+							VK.Widgets.Group("vk_groups", {mode: 2, width: "auto", height: "417"}, 202313040);
+							</script></div></div><div class="widget_text widget_custom_html col-sm-6 col-lg-3" id="custom_html-3"><h3><i class="fab fa-instagram"></i></h3><div class="textwidget custom-html-widget">
+<div id="sb_instagram" class="sbi sbi_col_3  sbi_width_resp" style="padding-bottom: 10px;background-color: rgb(255,255,255);width: 100%;" data-feedid="sbi_17841445553365476#9" data-res="auto" data-cols="3" data-num="9" data-shortcode-atts="{}"  data-postid="5" data-sbi-flags="favorLocal">
+	<div class="sb_instagram_header  sbi_no_avatar" style="padding: 5px; margin-bottom: 10px;padding-bottom: 0;">
+    <a href="https://www.instagram.com/alpha_skin.by/" target="_blank" rel="noopener nofollow" title="@alpha_skin.by" class="sbi_header_link">
+        <div class="sbi_header_text sbi_no_bio">
+            <h3 >alpha_skin.by</h3>
+	                </div>
+                <div class="sbi_header_img">
+            <div class="sbi_header_hashtag_icon"><svg class="sbi_new_logo fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" aria-label="Instagram" data-prefix="fab" data-icon="instagram" role="img" viewbox="0 0 448 512">
+	                <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+	            </svg></div>
+        </div>
+        
+    </a>
+</div>
+    <div id="sbi_images" style="padding: 5px;">
+		<div class="sbi_item sbi_type_video sbi_new sbi_transition" id="sbi_17889824933505143" data-date="1631726412">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CT2bW4IIFj8/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-arn2-2.cdninstagram.com/v/t51.29350-15/241860031_1968047490021772_1992651577269872961_n.jpg?_nc_cat=105&#038;ccb=1-5&#038;_nc_sid=8ae9d6&#038;_nc_ohc=87ucvzW20ywAX9_F3pu&#038;_nc_ht=scontent-arn2-2.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8s_5HkEJWihLuWEhoxSrRNNzL-cAUqjtIS_tgQBD5Ghg&#038;oe=625AE1B0" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241860031_1968047490021772_1992651577269872961_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=87ucvzW20ywAX9_F3pu&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT8s_5HkEJWihLuWEhoxSrRNNzL-cAUqjtIS_tgQBD5Ghg&amp;oe=625AE1B0&quot;,&quot;150&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241860031_1968047490021772_1992651577269872961_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=87ucvzW20ywAX9_F3pu&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT8s_5HkEJWihLuWEhoxSrRNNzL-cAUqjtIS_tgQBD5Ghg&amp;oe=625AE1B0&quot;,&quot;320&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241860031_1968047490021772_1992651577269872961_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=87ucvzW20ywAX9_F3pu&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT8s_5HkEJWihLuWEhoxSrRNNzL-cAUqjtIS_tgQBD5Ghg&amp;oe=625AE1B0&quot;,&quot;640&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241860031_1968047490021772_1992651577269872961_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=87ucvzW20ywAX9_F3pu&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT8s_5HkEJWihLuWEhoxSrRNNzL-cAUqjtIS_tgQBD5Ghg&amp;oe=625AE1B0&quot;}">
+            <span class="sbi-screenreader">Немного о том, как мы произв</span>
+            	        <svg style="color: rgba(255,255,255,1)" class="svg-inline--fa fa-play fa-w-14 sbi_playbtn" aria-label="Play" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="play" role="presentation" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>            <img src="https://alpha-skin.ru/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Немного о том, как мы производим планшетные плёнки 😎">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17931082735633715" data-date="1631636439">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CTzvxQbIJvu/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-arn2-2.cdninstagram.com/v/t51.29350-15/241997529_1289377331491737_6625345315433894650_n.jpg?_nc_cat=100&#038;ccb=1-5&#038;_nc_sid=8ae9d6&#038;_nc_ohc=gJhN8833TVUAX-FjZtW&#038;_nc_ht=scontent-arn2-2.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT_meiITWLXlrecP3MKOSoU4FmUOKMxHgmYa551O78T7aw&#038;oe=625A8301" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241997529_1289377331491737_6625345315433894650_n.jpg?_nc_cat=100&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=gJhN8833TVUAX-FjZtW&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_meiITWLXlrecP3MKOSoU4FmUOKMxHgmYa551O78T7aw&amp;oe=625A8301&quot;,&quot;150&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241997529_1289377331491737_6625345315433894650_n.jpg?_nc_cat=100&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=gJhN8833TVUAX-FjZtW&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_meiITWLXlrecP3MKOSoU4FmUOKMxHgmYa551O78T7aw&amp;oe=625A8301&quot;,&quot;320&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241997529_1289377331491737_6625345315433894650_n.jpg?_nc_cat=100&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=gJhN8833TVUAX-FjZtW&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_meiITWLXlrecP3MKOSoU4FmUOKMxHgmYa551O78T7aw&amp;oe=625A8301&quot;,&quot;640&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241997529_1289377331491737_6625345315433894650_n.jpg?_nc_cat=100&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=gJhN8833TVUAX-FjZtW&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_meiITWLXlrecP3MKOSoU4FmUOKMxHgmYa551O78T7aw&amp;oe=625A8301&quot;}">
+            <span class="sbi-screenreader">Что из себя представляет за</span>
+            	                    <img src="https://alpha-skin.ru/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Что из себя представляет задняя защитная текстурная плёнка Alpha Skin?🤔Это защитное виниловое или полиуретановое покрытие на ваш смартфон. На каждую модель вырезается индивидуально с помощью плоттера Alpha Skin Shell S, что обеспечивает идеальное совпадение с габаритами устройства. Плёнка может быть вырезана только на заднюю крышку, заднюю крышку с частичным покрытием граней, и полное покрытие корпуса смартфона под 180 градусов. 🔥Помимо крутого внешнего вида, плёнка надежно защищает устройство от сколов, царапин и падений.С помощью пленки можно: - украсить свой телефон;- изменить цвет;- и скрыть уже имеющиеся повреждения на корпусе.💯Мы используем материалы только премиального качества, они не оставляют никаких следов клея после снятия и долго служат.В наличии более 150 видов цветов и текстур:- дерево;- карбон;- кожа;- детские мультипликационные плёнки;- светящееся в темноте и переливающиеся на свету;- оптические и голографические;- 3d-текстурированные;- и многие многие другие🤩Благодаря разнообразию видов пленок, мы предоставляем нашим клиентам широкую вариативность и спектр цветов одного и того же дизайна. Поэтому вы обязательно найдёте что-то для себя😉По попросам пишите в директ.📲+375 (44) 530 66 92 - А1⠀‼️👉Также Вы можете оплатить гидрогелевую пленку через ЕРИП и мы отправим её по почте.">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17920030945867111" data-date="1630492354">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CTRpmjpoGha/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-arn2-2.cdninstagram.com/v/t51.29350-15/241153820_531054324842184_4105807857479587483_n.jpg?_nc_cat=105&#038;ccb=1-5&#038;_nc_sid=8ae9d6&#038;_nc_ohc=KPdbTjRZ8fkAX-WyS2h&#038;_nc_ht=scontent-arn2-2.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT8KPq6Cfn3UEHlqnnargu7nxdwP3qkMeIdDTOKcvppJvw&#038;oe=6259A371" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241153820_531054324842184_4105807857479587483_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=KPdbTjRZ8fkAX-WyS2h&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT8KPq6Cfn3UEHlqnnargu7nxdwP3qkMeIdDTOKcvppJvw&amp;oe=6259A371&quot;,&quot;150&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241153820_531054324842184_4105807857479587483_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=KPdbTjRZ8fkAX-WyS2h&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT8KPq6Cfn3UEHlqnnargu7nxdwP3qkMeIdDTOKcvppJvw&amp;oe=6259A371&quot;,&quot;320&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241153820_531054324842184_4105807857479587483_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=KPdbTjRZ8fkAX-WyS2h&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT8KPq6Cfn3UEHlqnnargu7nxdwP3qkMeIdDTOKcvppJvw&amp;oe=6259A371&quot;,&quot;640&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/241153820_531054324842184_4105807857479587483_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=KPdbTjRZ8fkAX-WyS2h&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT8KPq6Cfn3UEHlqnnargu7nxdwP3qkMeIdDTOKcvppJvw&amp;oe=6259A371&quot;}">
+            <span class="sbi-screenreader">Программное обеспечение дл</span>
+            	                    <img src="https://alpha-skin.ru/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Программное обеспечение для плоттеров 🚀Плоттер Alpha Skin разрабатывается, тестируется, производится и обслуживается нашей компанией на территории Республики Беларусь.Разработанный нами плоттер имеет более 10 000 обновляемых шаблонов, которые постоянно модернизируются и добавляются (в среднем добавляется 300 уникальных шаблонов в месяц). Система управления плоттером имеет удобный и отзывчивый интерфейс, не похожий ни на один другой, так как программное обеспечение разрабатывается штатными высокоспециализированными специалистами. Наше оборудование имеет личный кабинет пользователя, который позволяет удаленно полностью контролировать процессы и получать статистические данные в реальном времени по каждому из имеющихся у вас плоттеров.#плоттер #гидрогель #по #защитанадевайсы #защитанателефон">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17938062658599809" data-date="1629977025">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CTCSsFTov5I/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-arn2-1.cdninstagram.com/v/t51.29350-15/240424647_395572565319534_7546952732613124967_n.jpg?_nc_cat=101&#038;ccb=1-5&#038;_nc_sid=8ae9d6&#038;_nc_ohc=r_cHomymuvcAX-NCm5h&#038;_nc_ht=scontent-arn2-1.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT-aw6_-3x-nwlo1PK_9Ui38IsAD7pXkwlpb9EgpGCT_pQ&#038;oe=625AC4AB" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/240424647_395572565319534_7546952732613124967_n.jpg?_nc_cat=101&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=r_cHomymuvcAX-NCm5h&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-aw6_-3x-nwlo1PK_9Ui38IsAD7pXkwlpb9EgpGCT_pQ&amp;oe=625AC4AB&quot;,&quot;150&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/240424647_395572565319534_7546952732613124967_n.jpg?_nc_cat=101&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=r_cHomymuvcAX-NCm5h&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-aw6_-3x-nwlo1PK_9Ui38IsAD7pXkwlpb9EgpGCT_pQ&amp;oe=625AC4AB&quot;,&quot;320&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/240424647_395572565319534_7546952732613124967_n.jpg?_nc_cat=101&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=r_cHomymuvcAX-NCm5h&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-aw6_-3x-nwlo1PK_9Ui38IsAD7pXkwlpb9EgpGCT_pQ&amp;oe=625AC4AB&quot;,&quot;640&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/240424647_395572565319534_7546952732613124967_n.jpg?_nc_cat=101&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=r_cHomymuvcAX-NCm5h&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-aw6_-3x-nwlo1PK_9Ui38IsAD7pXkwlpb9EgpGCT_pQ&amp;oe=625AC4AB&quot;}">
+            <span class="sbi-screenreader">Наши плёнки вы можете накле</span>
+            	                    <img src="https://alpha-skin.ru/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Наши плёнки вы можете наклеить и самостоятельно. Для этого вам потребуется непосредственно пленка, салфетка для обработки поверхности со специальной жидкостью, а также шпатель для разглаживания.Напишите в комментарии, нужна ли подробная видеоинструкция по наклеиванию пленки в домашних условиях😉#гидрогель #защитанадевайсы #пленка #пленканаэкран">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_18245471872040478" data-date="1629455200">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CSyvYzYINqK/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-arn2-1.cdninstagram.com/v/t51.29350-15/239456791_204852621615150_4716342046840204371_n.jpg?_nc_cat=106&#038;ccb=1-5&#038;_nc_sid=8ae9d6&#038;_nc_ohc=tGfX2xUAaJcAX9h3yBO&#038;_nc_ht=scontent-arn2-1.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT_gnJdsRW8xZlxVkLWGzkT2lwJO3sq2EGt0XyxvQSe_Yg&#038;oe=625A78A8" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/239456791_204852621615150_4716342046840204371_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=tGfX2xUAaJcAX9h3yBO&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_gnJdsRW8xZlxVkLWGzkT2lwJO3sq2EGt0XyxvQSe_Yg&amp;oe=625A78A8&quot;,&quot;150&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/239456791_204852621615150_4716342046840204371_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=tGfX2xUAaJcAX9h3yBO&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_gnJdsRW8xZlxVkLWGzkT2lwJO3sq2EGt0XyxvQSe_Yg&amp;oe=625A78A8&quot;,&quot;320&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/239456791_204852621615150_4716342046840204371_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=tGfX2xUAaJcAX9h3yBO&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_gnJdsRW8xZlxVkLWGzkT2lwJO3sq2EGt0XyxvQSe_Yg&amp;oe=625A78A8&quot;,&quot;640&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/239456791_204852621615150_4716342046840204371_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=tGfX2xUAaJcAX9h3yBO&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_gnJdsRW8xZlxVkLWGzkT2lwJO3sq2EGt0XyxvQSe_Yg&amp;oe=625A78A8&quot;}">
+            <span class="sbi-screenreader"></span>
+            	                    <img src="https://alpha-skin.ru/wp-content/plugins/instagram-feed/img/placeholder.png" alt="😎Какие плоттеры мы предлагаем?Плоттер “Alpha Skin Shell S” – это новейший, эксклюзивный функционалом аппарат, эксплуатация которого принесет вам существенную прибыль уже с первых дней, если вы потратите немного времени для ознакомления с его основными инструкциями и правилами.⌚️Аппарат умеет резать гидрогелевую защиту практически на все гаджеты, включая телефоны, планшеты, ноутбуки, смарт-часы, фитнес-браслеты, наушники, фотоаппараты, игровые приставки, колонки и другие подобные устройства.Плоттер имеет встроенный интерактивный дисплей, а с помощью удобного интерфейса Ваш пользовательский опыт станет максимально комфортным уже с первых секунд.🔒В данной модели заготовка (пленка) автоматически и в правильном положении фиксируется на плоттере.  Не нужно переживать о том, правильно ли вставлена пленка на плоттере перед вырезом или нет. Плоттер сам расположит пленку для последующей вырезки.🚀Девайс работает очень шустро: среднее время вырезки одной гидрогелевой пленки всего 20 секунд.Полная техническая поддержка, инструкция по эксплуатации и обучающие материалы станут приятным и в то же время весомым дополнением к Вашей покупке. 🔥Приятно обрадует и богатая комплектация устройства, в которую входят: дополнительное лезвие для резки, подложка (керриер) для нарезки нешироких пленок на заднюю часть с боками, профессиональный фен для доклеивания углов при поклейке пленки на заднюю часть с боками, запасная защитная полоска плоттера, которая меняется в редких случаях (расскажем), шпатель для поклейки стандартных пленок и большой шпатель для поклейки пленок на планшеты, силиконовый коврик, на котором располагают гаджет для более удобной поклейки, а также салфетка для чистки поверхности дисплея от грязи и пыли.📱Нужна дополнительная информация? Оставьте комментарий, и наши специалисты подробно расскажут Вам о продукте.#альфаскин #плоттер #плоттеры #alphaskin #пленка #защитанадевайсы #гидрогель #бронепленка #защитанателефон">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17919196696851090" data-date="1629295208">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CSt-Oj0IoYo/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-arn2-1.cdninstagram.com/v/t51.29350-15/239095635_383232089903096_4466382067023376897_n.jpg?_nc_cat=102&#038;ccb=1-5&#038;_nc_sid=8ae9d6&#038;_nc_ohc=LyO0l6V27BAAX_NLz5y&#038;_nc_ht=scontent-arn2-1.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT-Wqx1nRMcWdmsZQk-bOPGKQyu0v9DCGZUzHg7Ue5xxjw&#038;oe=6259A613" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/239095635_383232089903096_4466382067023376897_n.jpg?_nc_cat=102&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=LyO0l6V27BAAX_NLz5y&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-Wqx1nRMcWdmsZQk-bOPGKQyu0v9DCGZUzHg7Ue5xxjw&amp;oe=6259A613&quot;,&quot;150&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/239095635_383232089903096_4466382067023376897_n.jpg?_nc_cat=102&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=LyO0l6V27BAAX_NLz5y&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-Wqx1nRMcWdmsZQk-bOPGKQyu0v9DCGZUzHg7Ue5xxjw&amp;oe=6259A613&quot;,&quot;320&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/239095635_383232089903096_4466382067023376897_n.jpg?_nc_cat=102&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=LyO0l6V27BAAX_NLz5y&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-Wqx1nRMcWdmsZQk-bOPGKQyu0v9DCGZUzHg7Ue5xxjw&amp;oe=6259A613&quot;,&quot;640&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/239095635_383232089903096_4466382067023376897_n.jpg?_nc_cat=102&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=LyO0l6V27BAAX_NLz5y&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-Wqx1nRMcWdmsZQk-bOPGKQyu0v9DCGZUzHg7Ue5xxjw&amp;oe=6259A613&quot;}">
+            <span class="sbi-screenreader"></span>
+            	                    <img src="https://alpha-skin.ru/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Наш ассортимент различных текстурных пленок никого не оставит равнодушным. Порадуйте клиентов обилием ярких и красочных пленок, которые придадут неповторимый стиль, а самое главное – надежную защиту! В наличии более 200 видов пленок самых разных цветов, дизайнов и текстур. А вы уже пробовали наши текстурные плёнки или только планируете?😎#бронепленка #гидрогель #пленканателефон #защитанадевайсы">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_18169339330153503" data-date="1629118948">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CSouCZqo51J/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-arn2-1.cdninstagram.com/v/t51.29350-15/238753419_1007242333439553_4092139598183796488_n.jpg?_nc_cat=111&#038;ccb=1-5&#038;_nc_sid=8ae9d6&#038;_nc_ohc=CLQhzzvM0okAX-e-PXo&#038;_nc_ht=scontent-arn2-1.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT_kbNEYZL9LUKY3TyAek3EJJGa75sApDJy5KxHpTbajgg&#038;oe=625A21B9" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/238753419_1007242333439553_4092139598183796488_n.jpg?_nc_cat=111&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CLQhzzvM0okAX-e-PXo&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_kbNEYZL9LUKY3TyAek3EJJGa75sApDJy5KxHpTbajgg&amp;oe=625A21B9&quot;,&quot;150&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/238753419_1007242333439553_4092139598183796488_n.jpg?_nc_cat=111&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CLQhzzvM0okAX-e-PXo&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_kbNEYZL9LUKY3TyAek3EJJGa75sApDJy5KxHpTbajgg&amp;oe=625A21B9&quot;,&quot;320&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/238753419_1007242333439553_4092139598183796488_n.jpg?_nc_cat=111&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CLQhzzvM0okAX-e-PXo&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_kbNEYZL9LUKY3TyAek3EJJGa75sApDJy5KxHpTbajgg&amp;oe=625A21B9&quot;,&quot;640&quot;:&quot;https:\/\/scontent-arn2-1.cdninstagram.com\/v\/t51.29350-15\/238753419_1007242333439553_4092139598183796488_n.jpg?_nc_cat=111&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CLQhzzvM0okAX-e-PXo&amp;_nc_ht=scontent-arn2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT_kbNEYZL9LUKY3TyAek3EJJGa75sApDJy5KxHpTbajgg&amp;oe=625A21B9&quot;}">
+            <span class="sbi-screenreader"></span>
+            	                    <img src="https://alpha-skin.ru/wp-content/plugins/instagram-feed/img/placeholder.png" alt="База шаблонов для плоттера🔥Самый важный критерий при выборе плоттера – это база шаблонов и частота новых добавлений. В плоттерах Alpha Skin огромная база шаблонов, контролируемая и обновляемая нами. Сегодня она насчитывает более 10 тысяч шаблонов. Показатель доступных лекал увеличивается с каждым днем.🚀Покупатель рядом и не смогли найти нужный вам шаблон? Скорость добавления составит от 5 минут!📲Обнаружили недостаток в шаблоне? Сообщите нам, мы исправим менее чем за 60 минут. Остались вопросы? Пишите в комментарии.">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17922944773771430" data-date="1629012378">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CSlixUnI5ib/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-arn2-2.cdninstagram.com/v/t51.29350-15/238521080_3005925099680279_5578970213683609371_n.jpg?_nc_cat=105&#038;ccb=1-5&#038;_nc_sid=8ae9d6&#038;_nc_ohc=hKSw6nG-hioAX-LlKkX&#038;_nc_oc=AQn841Bwh07nYVfc0ULYl1jL378bBigC6u5GRdJ_Oajp0nV0EGfUDXnEjSrpSotlCXo&#038;_nc_ht=scontent-arn2-2.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT-58pbGpzJRHbPM9NjKT51EB1UQi1IIPh_sj975voLQrQ&#038;oe=625A4EC5" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/238521080_3005925099680279_5578970213683609371_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=hKSw6nG-hioAX-LlKkX&amp;_nc_oc=AQn841Bwh07nYVfc0ULYl1jL378bBigC6u5GRdJ_Oajp0nV0EGfUDXnEjSrpSotlCXo&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-58pbGpzJRHbPM9NjKT51EB1UQi1IIPh_sj975voLQrQ&amp;oe=625A4EC5&quot;,&quot;150&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/238521080_3005925099680279_5578970213683609371_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=hKSw6nG-hioAX-LlKkX&amp;_nc_oc=AQn841Bwh07nYVfc0ULYl1jL378bBigC6u5GRdJ_Oajp0nV0EGfUDXnEjSrpSotlCXo&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-58pbGpzJRHbPM9NjKT51EB1UQi1IIPh_sj975voLQrQ&amp;oe=625A4EC5&quot;,&quot;320&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/238521080_3005925099680279_5578970213683609371_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=hKSw6nG-hioAX-LlKkX&amp;_nc_oc=AQn841Bwh07nYVfc0ULYl1jL378bBigC6u5GRdJ_Oajp0nV0EGfUDXnEjSrpSotlCXo&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-58pbGpzJRHbPM9NjKT51EB1UQi1IIPh_sj975voLQrQ&amp;oe=625A4EC5&quot;,&quot;640&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/238521080_3005925099680279_5578970213683609371_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=hKSw6nG-hioAX-LlKkX&amp;_nc_oc=AQn841Bwh07nYVfc0ULYl1jL378bBigC6u5GRdJ_Oajp0nV0EGfUDXnEjSrpSotlCXo&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT-58pbGpzJRHbPM9NjKT51EB1UQi1IIPh_sj975voLQrQ&amp;oe=625A4EC5&quot;}">
+            <span class="sbi-screenreader">Комплектация плоттеров Alpha </span>
+            	                    <img src="https://alpha-skin.ru/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Комплектация плоттеров Alpha SkinПокупая плоттер у нас, вы получаете не только само устройство, но и все необходимое для качественного старта в бизнесе. Кроме пленок докупать ничего не нужно.Что входит в комплект?✅Устройство с лезвием✅Адаптер питания✅Профессиональный фен для поклейки углов пленок✅Запасное лезвие✅Подложка (керриер) для нарезки нешироких пленок под 360✅Запасная защитная полоска плоттера✅Шпатель для поклейки гидрогелевых пленок✅Шпатель (большой) для поклейки гидрогелевых пленок на планшет✅Силиконовый коврик✅Салфетка для чистки дисплея✅Набор для очисткиКупить плоттер можно написав в директ.Остались вопросы? Пишите в комментарии.">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_18180358852125846" data-date="1628844317">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CSgiOGUIfra/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-arn2-2.cdninstagram.com/v/t51.29350-15/236217899_943782606172782_6320438250572326568_n.jpg?_nc_cat=108&#038;ccb=1-5&#038;_nc_sid=8ae9d6&#038;_nc_ohc=NM4KWpSO-8AAX8A8lll&#038;_nc_oc=AQmQii9WvkSluLG50078Yb9isLUVSL6S_8yG-5WaG938IhVEyVapTVTxP2cv-DXcRLk&#038;_nc_ht=scontent-arn2-2.cdninstagram.com&#038;edm=ANo9K5cEAAAA&#038;oh=00_AT85mH98SOcGBQu0qFi8JgjCBijmF7GrN4Y1_TzwbPxqqg&#038;oe=62597D56" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/236217899_943782606172782_6320438250572326568_n.jpg?_nc_cat=108&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=NM4KWpSO-8AAX8A8lll&amp;_nc_oc=AQmQii9WvkSluLG50078Yb9isLUVSL6S_8yG-5WaG938IhVEyVapTVTxP2cv-DXcRLk&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT85mH98SOcGBQu0qFi8JgjCBijmF7GrN4Y1_TzwbPxqqg&amp;oe=62597D56&quot;,&quot;150&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/236217899_943782606172782_6320438250572326568_n.jpg?_nc_cat=108&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=NM4KWpSO-8AAX8A8lll&amp;_nc_oc=AQmQii9WvkSluLG50078Yb9isLUVSL6S_8yG-5WaG938IhVEyVapTVTxP2cv-DXcRLk&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT85mH98SOcGBQu0qFi8JgjCBijmF7GrN4Y1_TzwbPxqqg&amp;oe=62597D56&quot;,&quot;320&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/236217899_943782606172782_6320438250572326568_n.jpg?_nc_cat=108&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=NM4KWpSO-8AAX8A8lll&amp;_nc_oc=AQmQii9WvkSluLG50078Yb9isLUVSL6S_8yG-5WaG938IhVEyVapTVTxP2cv-DXcRLk&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT85mH98SOcGBQu0qFi8JgjCBijmF7GrN4Y1_TzwbPxqqg&amp;oe=62597D56&quot;,&quot;640&quot;:&quot;https:\/\/scontent-arn2-2.cdninstagram.com\/v\/t51.29350-15\/236217899_943782606172782_6320438250572326568_n.jpg?_nc_cat=108&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=NM4KWpSO-8AAX8A8lll&amp;_nc_oc=AQmQii9WvkSluLG50078Yb9isLUVSL6S_8yG-5WaG938IhVEyVapTVTxP2cv-DXcRLk&amp;_nc_ht=scontent-arn2-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AT85mH98SOcGBQu0qFi8JgjCBijmF7GrN4Y1_TzwbPxqqg&amp;oe=62597D56&quot;}">
+            <span class="sbi-screenreader">Почему Alpha Skin? 
+
+✅Собственно</span>
+            	                    <img src="https://alpha-skin.ru/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Почему Alpha Skin? ✅Собственное программное обеспечение для плоттеров от команды программистов в Беларуси и ежедневное обновление базы макетов.✅Техническая поддержка 24 часа 7 дней в неделю. Это значит, что вам не нужно месяцами ждать ответ на ваш запрос. Добавим или исправим любой шаблон максимум за 60 минут.✅Качественные расходники. Всегда в наличии ассортимент глянца, мата для телефонов, планшетов и laptop. Более 200 видов цветных текстурных плёнок.✅Максимальная комплектация: устройство, дополнительное лезвие, профессиональный фен, керриер, несколько шпателей, силиконовый коврик, салфетка для чистки дисплея и набор для очистки. Где еще вам предложат настолько полный комплект?Остались вопросы? Пишите в комментарии.">
+        </a>
+    </div>
+</div>    </div>
+
+	<div id="sbi_load">
+
+	
+	    <span class="sbi_follow_btn">
+        <a href="https://www.instagram.com/alpha_skin.by/" target="_blank" rel="noopener nofollow"><svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" aria-label="Instagram" data-prefix="fab" data-icon="instagram" role="img" viewbox="0 0 448 512">
+	                <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+	            </svg>Следуйте в Instagram</a>
+    </span>
+	
+</div>
+	    <span class="sbi_resized_image_data" data-feed-id="sbi_17841445553365476#9" data-resized="{&quot;18180358852125846&quot;:{&quot;id&quot;:&quot;236217899_943782606172782_6320438250572326568_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;17922944773771430&quot;:{&quot;id&quot;:&quot;238521080_3005925099680279_5578970213683609371_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;18169339330153503&quot;:{&quot;id&quot;:&quot;238753419_1007242333439553_4092139598183796488_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;17919196696851090&quot;:{&quot;id&quot;:&quot;239095635_383232089903096_4466382067023376897_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;18245471872040478&quot;:{&quot;id&quot;:&quot;239456791_204852621615150_4716342046840204371_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;17938062658599809&quot;:{&quot;id&quot;:&quot;240424647_395572565319534_7546952732613124967_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;17920030945867111&quot;:{&quot;id&quot;:&quot;241153820_531054324842184_4105807857479587483_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;17931082735633715&quot;:{&quot;id&quot;:&quot;241997529_1289377331491737_6625345315433894650_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;17889824933505143&quot;:{&quot;id&quot;:&quot;241860031_1968047490021772_1992651577269872961_n&quot;,&quot;ratio&quot;:&quot;1.83&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}}}">
+	</span>
+	</div>
+
+</div></div><div class="widget_text widget_custom_html col-sm-6 col-lg-3" id="custom_html-5"><h3><i class="fab fa-facebook"></i></h3><div class="textwidget custom-html-widget"><div class="cff-wrapper"><div class="cff-wrapper-ctn"  style="padding:8px;" ><div id="cff"  class="cff cff-list-container  cff-default-styles"   style="width:100%;"   data-char="200" ><div class="cff-posts-wrap"><div id="cff_100362352089657_322268923232331" class="cff-item cff-link-item author-alpha-skin-by"  style="border-bottom: 1px solid #;">
+	<div class="cff-author">
+	<div class="cff-author-text">
+					<div class="cff-page-name cff-author-date"  style="color:#5e5e5e;" >
+				<a href="https://facebook.com/100362352089657" target="_blank" rel="nofollow noopener" style="color:#5e5e5e;">Alpha-Skin.by</a>
+				<span class="cff-story"> </span>
+			</div>
+			
+<p class="cff-date"  style="color:#444444;" > 5 months ago </p>			</div>
+	<div class="cff-author-img" data-avatar="https://scontent-arn2-1.xx.fbcdn.net/v/t1.6435-1/172732911_143210734471485_8830219093591472613_n.jpg?stp=cp0_dst-jpg_p50x50&amp;_nc_cat=104&amp;ccb=1-6&amp;_nc_sid=dbb9e7&amp;_nc_ohc=03o-IR4Ci5cAX-vIFLT&amp;_nc_ht=scontent-arn2-1.xx&amp;edm=AKIiGfEEAAAA&amp;oh=00_AT_ZObUXtVJxTDpQpNAnj301lHaidDb5_m8QKeWaOJtQPQ&amp;oe=62A78F7F">
+		<a href="https://facebook.com/100362352089657" target="_blank" rel="nofollow noopener" style="color:#5e5e5e;"><img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.6435-1/172732911_143210734471485_8830219093591472613_n.jpg?stp=cp0_dst-jpg_p50x50&amp;_nc_cat=104&amp;ccb=1-6&amp;_nc_sid=dbb9e7&amp;_nc_ohc=03o-IR4Ci5cAX-vIFLT&amp;_nc_ht=scontent-arn2-1.xx&amp;edm=AKIiGfEEAAAA&amp;oh=00_AT_ZObUXtVJxTDpQpNAnj301lHaidDb5_m8QKeWaOJtQPQ&amp;oe=62A78F7F" title="Alpha-Skin.by" alt="Alpha-Skin.by" width=40 height=40 onerror="this.style.display='none'"></a>
+	</div>
+</div>
+
+<div class="cff-shared-link" >
+	<div class="cff-text-link cff-no-image">
+					<p class="cff-link-title" >
+				<a href="https://www.facebook.com/100362352089657" target="_blank" rel="nofollow noopener noreferrer" style="color:#;">Alpha-Skin.by updated their business hours.</a>
+			</p>
+		
+					<p class="cff-link-caption"  style="font-size:12px;" >www.facebook.com</p>
+		
+					<span class="cff-post-desc" ></span>
+		
+	</div>
+</div>
+
+<div class="cff-post-links">
+			<a class="cff-viewpost-facebook" href="https://www.facebook.com/100362352089657/posts/322268923232331" title="View on Facebook" target="_blank" rel="nofollow noopener">View on Facebook</a>
+				<div class="cff-share-container">
+							<span class="cff-dot" >&middot;</span>
+				<a class="cff-share-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268923232331" title="Share" >Share</a>
+				<p class="cff-share-tooltip">
+											<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268923232331" target="_blank" class="cff-facebook-icon" rel="noopener">
+							<span class="fa fab fa-facebook-square" aria-hidden="true"></span>
+							<span class="cff-screenreader">Share on Facebook</span>
+						</a>
+											<a href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268923232331" target="_blank" class="cff-twitter-icon" rel="noopener">
+							<span class="fa fab fa-twitter" aria-hidden="true"></span>
+							<span class="cff-screenreader">Share on Twitter</span>
+						</a>
+											<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268923232331&amp;title=" target="_blank" class="cff-linkedin-icon" rel="noopener">
+							<span class="fa fab fa-linkedin" aria-hidden="true"></span>
+							<span class="cff-screenreader">Share on Linked In</span>
+						</a>
+											<a href="mailto:?subject=Facebook&#038;body=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268923232331%20-%20" target="_blank" class="cff-email-icon" rel="noopener">
+							<span class="fa fab fa-envelope" aria-hidden="true"></span>
+							<span class="cff-screenreader">Share by Email</span>
+						</a>
+									</p>
+					</div>
+	</div>
+</div>
+
+
+
+<div id="cff_100362352089657_322268859899004" class="cff-item cff-link-item author-alpha-skin-by"  style="border-bottom: 1px solid #;">
+	<div class="cff-author">
+	<div class="cff-author-text">
+					<div class="cff-page-name cff-author-date"  style="color:#5e5e5e;" >
+				<a href="https://facebook.com/100362352089657" target="_blank" rel="nofollow noopener" style="color:#5e5e5e;">Alpha-Skin.by</a>
+				<span class="cff-story">  updated their status.</span>
+			</div>
+			
+<p class="cff-date"  style="color:#444444;" > 5 months ago </p>			</div>
+	<div class="cff-author-img" data-avatar="https://scontent-arn2-1.xx.fbcdn.net/v/t1.6435-1/172732911_143210734471485_8830219093591472613_n.jpg?stp=cp0_dst-jpg_p50x50&amp;_nc_cat=104&amp;ccb=1-6&amp;_nc_sid=dbb9e7&amp;_nc_ohc=03o-IR4Ci5cAX-vIFLT&amp;_nc_ht=scontent-arn2-1.xx&amp;edm=AKIiGfEEAAAA&amp;oh=00_AT_ZObUXtVJxTDpQpNAnj301lHaidDb5_m8QKeWaOJtQPQ&amp;oe=62A78F7F">
+		<a href="https://facebook.com/100362352089657" target="_blank" rel="nofollow noopener" style="color:#5e5e5e;"><img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.6435-1/172732911_143210734471485_8830219093591472613_n.jpg?stp=cp0_dst-jpg_p50x50&amp;_nc_cat=104&amp;ccb=1-6&amp;_nc_sid=dbb9e7&amp;_nc_ohc=03o-IR4Ci5cAX-vIFLT&amp;_nc_ht=scontent-arn2-1.xx&amp;edm=AKIiGfEEAAAA&amp;oh=00_AT_ZObUXtVJxTDpQpNAnj301lHaidDb5_m8QKeWaOJtQPQ&amp;oe=62A78F7F" title="Alpha-Skin.by" alt="Alpha-Skin.by" width=40 height=40 onerror="this.style.display='none'"></a>
+	</div>
+</div>
+
+<div class="cff-shared-link" >
+	<div class="cff-text-link cff-no-image">
+					<p class="cff-link-title" >
+				<a href="https://www.facebook.com/100362352089657/posts/322268859899004" target="_blank" rel="nofollow noopener noreferrer" style="color:#;">This content isn't available right now</a>
+			</p>
+		
+		
+					<span class="cff-post-desc" >When this happens, it's usually because the owner only shared it with a small group of people, changed who can see it or it's been deleted.</span>
+		
+	</div>
+</div>
+
+<div class="cff-post-links">
+			<a class="cff-viewpost-facebook" href="https://www.facebook.com/100362352089657/posts/322268859899004" title="View on Facebook" target="_blank" rel="nofollow noopener">View on Facebook</a>
+				<div class="cff-share-container">
+							<span class="cff-dot" >&middot;</span>
+				<a class="cff-share-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268859899004" title="Share" >Share</a>
+				<p class="cff-share-tooltip">
+											<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268859899004" target="_blank" class="cff-facebook-icon" rel="noopener">
+							<span class="fa fab fa-facebook-square" aria-hidden="true"></span>
+							<span class="cff-screenreader">Share on Facebook</span>
+						</a>
+											<a href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268859899004" target="_blank" class="cff-twitter-icon" rel="noopener">
+							<span class="fa fab fa-twitter" aria-hidden="true"></span>
+							<span class="cff-screenreader">Share on Twitter</span>
+						</a>
+											<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268859899004&amp;title=" target="_blank" class="cff-linkedin-icon" rel="noopener">
+							<span class="fa fab fa-linkedin" aria-hidden="true"></span>
+							<span class="cff-screenreader">Share on Linked In</span>
+						</a>
+											<a href="mailto:?subject=Facebook&#038;body=https%3A%2F%2Fwww.facebook.com%2F100362352089657%2Fposts%2F322268859899004%20-%20" target="_blank" class="cff-email-icon" rel="noopener">
+							<span class="fa fab fa-envelope" aria-hidden="true"></span>
+							<span class="cff-screenreader">Share by Email</span>
+						</a>
+									</p>
+					</div>
+	</div>
+</div>
+
+
+
+
+<div class="cff-likebox cff-bottom" >
+		<iframe src="#" class="fb_iframe_widget" data-likebox-id="100362352089657" data-likebox-width="300" data-likebox-header="" data-hide-cover="" data-hide-cta="" data-likebox-faces="" data-height="130" data-locale="en_US" scrolling="no" allowtransparency="true" allow="encrypted-media" ></iframe>
+</div></div><input class="cff-pag-url" type="hidden" data-cff-shortcode="" data-post-id="5" data-feed-id="100362352089657"></div></div><div class="cff-clear"></div></div></div></div><div class="widget_text widget_custom_html col-sm-6 col-lg-3" id="custom_html-4"><h3><i class="fab fa-twitter"></i></h3><div class="textwidget custom-html-widget"><!-- Custom Twitter Feeds by Smash Balloon --><div id="ctf" class="ctf ctf-type-usertimeline  ctf-styles" style="width: 100%;background-color: #ffffff;" data-ctfshortcode="{}" data-ctfintents="1" data-postid="5" data-feed-id="ctf__Alphaskinby12" data-ctfneeded="-1"><div class="ctf-header ctf-no-bio" style=""><a href="https://twitter.com/Alphaskinby1" target="_blank" rel="noopener noreferrer" title="@Alphaskinby1" class="ctf-header-link"><div class="ctf-header-text"><p class="ctf-header-user" style="color: #515151;"><span class="ctf-header-name">Alpha_skin.by</span><span class="ctf-header-follow"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" aria-label="twitter logo" data-fa-processed="" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>Follow</span></p></div><div class="ctf-header-img"><div class="ctf-header-img-hover"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" aria-label="twitter logo" data-fa-processed="" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></div><img src="https://pbs.twimg.com/profile_images/1395316617312079876/KxH3w8dB_normal.jpg" alt="Alpha_skin.by" width="48" height="48"></div></a></div><div class="ctf-tweets"><div class="ctf-item ctf-author-alphaskinby1 ctf-new" id="1400779799640035332" style="background-color: #ffffff;"><div class="ctf-author-box"><div class="ctf-author-box-link" style="color: #5b5b5b;"><a href="https://twitter.com/Alphaskinby1" class="ctf-author-avatar" target="_blank" rel="noopener noreferrer" style="color: #5b5b5b;"><img src="https://pbs.twimg.com/profile_images/1395316617312079876/KxH3w8dB_normal.jpg" alt="Alphaskinby1" width="48" height="48"></a><a href="https://twitter.com/Alphaskinby1" target="_blank" rel="noopener noreferrer" class="ctf-author-name" style="color: #5b5b5b;">Alpha_skin.by</a><a href="https://twitter.com/Alphaskinby1" class="ctf-author-screenname" target="_blank" rel="noopener noreferrer" style="color: #5b5b5b;">@Alphaskinby1</a><span class="ctf-screename-sep">&middot;</span><div class="ctf-tweet-meta"><a href="https://twitter.com/Alphaskinby1/status/1400779799640035332" class="ctf-tweet-date" target="_blank" rel="noopener noreferrer" style="color: #5b5b5b;">4 Июн</a></div></div><div class="ctf-corner-logo" style=""><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" aria-label="twitter logo" data-fa-processed="" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></div></div><div class="ctf-tweet-content"><p class="ctf-tweet-text" style="color: #5b5b5b;">Только что опубликовано фото @ ТЦ Немига 3 https://www.instagram.com/p/CPsmwtUByWP/?utm_medium=twitter</div><div class="ctf-tweet-actions"><a href="https://twitter.com/intent/tweet?in_reply_to=1400779799640035332&amp;related=Alphaskinby1" class="ctf-reply" target="_blank" rel="noopener noreferrer" style=""><svg class="svg-inline--fa fa-w-16" viewbox="0 0 24 24" aria-label="reply" role="img" xmlns="http://www.w3.org/2000/svg"><g><path fill="currentColor" d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828c0 .108.044.286.12.403.142.225.384.347.632.347.138 0 .277-.038.402-.118.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67c0-.414-.335-.75-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176z"></path></g></svg><span class="ctf-screenreader">Reply on Twitter 1400779799640035332</span></a><a href="https://twitter.com/intent/retweet?tweet_id=1400779799640035332&amp;related=Alphaskinby1" class="ctf-retweet" target="_blank" rel="noopener noreferrer" style=""><svg class="svg-inline--fa fa-w-16" viewbox="0 0 24 24" aria-hidden="true" aria-label="retweet" role="img"><path fill="currentColor" d="M23.77 15.67c-.292-.293-.767-.293-1.06 0l-2.22 2.22V7.65c0-2.068-1.683-3.75-3.75-3.75h-5.85c-.414 0-.75.336-.75.75s.336.75.75.75h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22c-.293-.293-.768-.293-1.06 0s-.294.768 0 1.06l3.5 3.5c.145.147.337.22.53.22s.383-.072.53-.22l3.5-3.5c.294-.292.294-.767 0-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22c.148.147.34.22.532.22s.384-.073.53-.22c.293-.293.293-.768 0-1.06l-3.5-3.5c-.293-.294-.768-.294-1.06 0l-3.5 3.5c-.294.292-.294.767 0 1.06s.767.293 1.06 0l2.22-2.22V16.7c0 2.068 1.683 3.75 3.75 3.75h5.85c.414 0 .75-.336.75-.75s-.337-.75-.75-.75z"></path></svg><span class="ctf-screenreader">Retweet on Twitter 1400779799640035332</span><span class="ctf-action-count ctf-retweet-count"></span></a><a href="https://twitter.com/intent/like?tweet_id=1400779799640035332&amp;related=Alphaskinby1" class="ctf-like" target="_blank" rel="noopener noreferrer" style=""><svg class="svg-inline--fa fa-w-16" viewbox="0 0 24 24" aria-hidden="true" aria-label="like" role="img" xmlns="http://www.w3.org/2000/svg"><g><path fill="currentColor" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z"></path></g></svg><span class="ctf-screenreader">Like on Twitter 1400779799640035332</span><span class="ctf-action-count ctf-favorite-count"></span></a><a href="https://twitter.com/Alphaskinby1/status/1400779799640035332" class="ctf-twitterlink" style="color: #5b5b5b;" target="_blank" rel="noopener noreferrer">Twitter <span class="ctf-screenreader">1400779799640035332</span></a></div></div><div class="ctf-item ctf-author-alphaskinby1 ctf-new" id="1396156468764811267" style="background-color: #ffffff;"><div class="ctf-author-box"><div class="ctf-author-box-link" style="color: #5b5b5b;"><a href="https://twitter.com/Alphaskinby1" class="ctf-author-avatar" target="_blank" rel="noopener noreferrer" style="color: #5b5b5b;"><img src="https://pbs.twimg.com/profile_images/1395316617312079876/KxH3w8dB_normal.jpg" alt="Alphaskinby1" width="48" height="48"></a><a href="https://twitter.com/Alphaskinby1" target="_blank" rel="noopener noreferrer" class="ctf-author-name" style="color: #5b5b5b;">Alpha_skin.by</a><a href="https://twitter.com/Alphaskinby1" class="ctf-author-screenname" target="_blank" rel="noopener noreferrer" style="color: #5b5b5b;">@Alphaskinby1</a><span class="ctf-screename-sep">&middot;</span><div class="ctf-tweet-meta"><a href="https://twitter.com/Alphaskinby1/status/1396156468764811267" class="ctf-tweet-date" target="_blank" rel="noopener noreferrer" style="color: #5b5b5b;">22 Май</a></div></div><div class="ctf-corner-logo" style=""><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" aria-label="twitter logo" data-fa-processed="" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></div></div><div class="ctf-tweet-content"><p class="ctf-tweet-text" style="color: #5b5b5b;">Только что опубликовано фото @ ТЦ Немига 3 https://www.instagram.com/p/CPLwUE4hrut/?utm_medium=twitter</div><div class="ctf-tweet-actions"><a href="https://twitter.com/intent/tweet?in_reply_to=1396156468764811267&amp;related=Alphaskinby1" class="ctf-reply" target="_blank" rel="noopener noreferrer" style=""><svg class="svg-inline--fa fa-w-16" viewbox="0 0 24 24" aria-label="reply" role="img" xmlns="http://www.w3.org/2000/svg"><g><path fill="currentColor" d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828c0 .108.044.286.12.403.142.225.384.347.632.347.138 0 .277-.038.402-.118.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67c0-.414-.335-.75-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176z"></path></g></svg><span class="ctf-screenreader">Reply on Twitter 1396156468764811267</span></a><a href="https://twitter.com/intent/retweet?tweet_id=1396156468764811267&amp;related=Alphaskinby1" class="ctf-retweet" target="_blank" rel="noopener noreferrer" style=""><svg class="svg-inline--fa fa-w-16" viewbox="0 0 24 24" aria-hidden="true" aria-label="retweet" role="img"><path fill="currentColor" d="M23.77 15.67c-.292-.293-.767-.293-1.06 0l-2.22 2.22V7.65c0-2.068-1.683-3.75-3.75-3.75h-5.85c-.414 0-.75.336-.75.75s.336.75.75.75h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22c-.293-.293-.768-.293-1.06 0s-.294.768 0 1.06l3.5 3.5c.145.147.337.22.53.22s.383-.072.53-.22l3.5-3.5c.294-.292.294-.767 0-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22c.148.147.34.22.532.22s.384-.073.53-.22c.293-.293.293-.768 0-1.06l-3.5-3.5c-.293-.294-.768-.294-1.06 0l-3.5 3.5c-.294.292-.294.767 0 1.06s.767.293 1.06 0l2.22-2.22V16.7c0 2.068 1.683 3.75 3.75 3.75h5.85c.414 0 .75-.336.75-.75s-.337-.75-.75-.75z"></path></svg><span class="ctf-screenreader">Retweet on Twitter 1396156468764811267</span><span class="ctf-action-count ctf-retweet-count"></span></a><a href="https://twitter.com/intent/like?tweet_id=1396156468764811267&amp;related=Alphaskinby1" class="ctf-like" target="_blank" rel="noopener noreferrer" style=""><svg class="svg-inline--fa fa-w-16" viewbox="0 0 24 24" aria-hidden="true" aria-label="like" role="img" xmlns="http://www.w3.org/2000/svg"><g><path fill="currentColor" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z"></path></g></svg><span class="ctf-screenreader">Like on Twitter 1396156468764811267</span><span class="ctf-action-count ctf-favorite-count"></span></a><a href="https://twitter.com/Alphaskinby1/status/1396156468764811267" class="ctf-twitterlink" style="color: #5b5b5b;" target="_blank" rel="noopener noreferrer">Twitter <span class="ctf-screenreader">1396156468764811267</span></a></div></div></div></div></div></div>          </div>
+                    <div class="sidebar-widgets row text-center mb-2 d-block d-md-none">
+
+          </div>
+
+
+          <div class="row copyright text-center">
+            <p>&copy; Авторские права защищены 2022</p>
+          </div>
+
+        </div>
+      </footer>
+      <!-- /footer -->
+
+    <!-- Custom Facebook Feed JS -->
+<script type="text/javascript">var cffajaxurl = "https://alpha-skin.ru/wp-admin/admin-ajax.php";
+var cfflinkhashtags = "true";
+</script>
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://alpha-skin.ru/wp-admin/admin-ajax.php";
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-includes/js/dist/vendor/regenerator-runtime.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-includes/js/dist/vendor/wp-polyfill.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/alpha-skin.ru\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.2' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/lazy-load-for-videos/public/js/lazyload-shared.js' id='lazyload-video-js-js'></script>
+<script type='text/javascript' id='lazyload-youtube-js-js-before'>
+window.llvConfig=window.llvConfig||{};window.llvConfig.youtube={"colour":"red","buttonstyle":"default","controls":true,"loadpolicy":true,"thumbnailquality":"0","preroll":"","postroll":"","overlaytext":"","loadthumbnail":true,"cookies":false,"callback":"<!--YOUTUBE_CALLBACK-->"};
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/lazy-load-for-videos/public/js/lazyload-youtube.js' id='lazyload-youtube-js-js'></script>
+<script type='text/javascript' id='lazyload-vimeo-js-js-before'>
+window.llvConfig=window.llvConfig||{};window.llvConfig.vimeo={"buttonstyle":"default","playercolour":"#00adef","preroll":"","postroll":"","show_title":false,"overlaytext":"","loadthumbnail":true,"thumbnailquality":false,"callback":"<!--VIMEO_CALLBACK-->"};
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/lazy-load-for-videos/public/js/lazyload-vimeo.js' id='lazyload-vimeo-js-js'></script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/custom-facebook-feed/assets/js/cff-scripts.js?ver=2.19.3' id='cffscripts-js'></script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/jquery-validation-for-contact-form-7/includes/assets/js/jquery.validate.min.js?ver=5.0' id='jvcf7_jquery_validate-js'></script>
+<script type='text/javascript' id='jvcf7_validation-js-extra'>
+/* <![CDATA[ */
+var scriptData = {"jvcf7_default_settings":{"jvcf7_show_label_error":"noErrorMsg","jvcf7_invalid_field_design":"theme_0"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/jquery-validation-for-contact-form-7/includes/assets/js/jvcf7_validation.js?ver=5.0' id='jvcf7_validation-js'></script>
+<script type='text/javascript' id='ivory-search-scripts-js-extra'>
+/* <![CDATA[ */
+var IvorySearchVars = {"is_analytics_enabled":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js?ver=4.6.4' id='ivory-search-scripts-js'></script>
+<script type='text/javascript' id='sb_instagram_scripts-js-extra'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"font_method":"svg","resized_url":"https:\/\/alpha-skin.ru\/wp-content\/uploads\/sb-instagram-feed-images\/","placeholder":"https:\/\/alpha-skin.ru\/wp-content\/plugins\/instagram-feed\/img\/placeholder.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/instagram-feed/js/sbi-scripts.min.js?ver=2.9.2' id='sb_instagram_scripts-js'></script>
+<script type='text/javascript' id='ctf_scripts-js-extra'>
+/* <![CDATA[ */
+var ctf = {"ajax_url":"https:\/\/alpha-skin.ru\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alpha-skin.ru/wp-content/plugins/custom-twitter-feeds/js/ctf-scripts.min.js?ver=1.8.2' id='ctf_scripts-js'></script>
+
+    <!-- analytics -->
+    <script>
+    (function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
+    (f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
+    l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
+    })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
+    ga('send', 'pageview');
+    </script>
+
+    <!-- чат битрикс -->
+    <script>
+        (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn-ru.bitrix24.ru/b16230148/crm/site_button/loader_3_w777ey.js');
+    </script>
+
+  </body>
+
+<!-- Mirrored from alpha-skin.ru/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 May 2022 08:19:22 GMT -->
+</html>
